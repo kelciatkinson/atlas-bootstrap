@@ -34,9 +34,9 @@
   </header>
   <main>
   <!-- Banner Section -->
-  <section class="bg-dark banner text-center text-white align-items-center d-flex ">
-    <div class="container p-5">
-      <h1 class="fs-1 p-5">Welcome to the Tulsa Pickleball Club</h1>
+  <section class="bg-dark banner text-center text-white align-items-center d-flex">
+    <div class="container">
+      <h1 class="fs-1 mt-5">Welcome to the Tulsa Pickleball Club</h1>
       <p class="p-3">Join us for fun, fitness, and community on the courts!</p>
       <a href="#membership" class="btn btn-primary btn-lg mt-3">Become a Member</a>
     </div>
@@ -84,15 +84,12 @@
   <section id="membership" class="bg-dark p-5">
     <div class="container text-center">
       <h2 class="mb-4">Explore Membership Options</h2>
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-          Choose Membership Level
-        </button>
-        <div class="dropdown-menu text-dark">
-          <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#free" aria-expanded="false" aria-controls="freeInfo">Free Membership</a>
-          <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#basic" aria-expanded="false" aria-controls="basicInfo">Basic Membership</a>
-          <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#premium" aria-expanded="false" aria-controls="premiumInfo">Premium Membership</a>
-        </div>
+      <select class="form-select btn btn-primary" aria-label="Default select example">
+        <option selected>Choose Membership Level</option>
+        <option value="Free Membership" data-toggle="collapse" data-target="#free" aria-expanded="false" aria-controls="free">Free Membership</option>
+        <option value="Basic Membership" data-toggle="collapse" data-target="#basic" aria-expanded="false" aria-controls="basic">Basic Membership</option>
+        <option value="Premium Membership" data-toggle="collapse" data-target="#premium" aria-expanded="false" aria-controls="premium">Premium Membership</option>
+      </select>
         <div id="free" class="collapse membership-info mt-4 text-white">
           <p>Free Membership: Access to all games and discounts on events.</p>
         </div>

@@ -1,14 +1,13 @@
 .btn-primary {
   background-color: yellowgreen !important;
+  border-color: rgb(130, 173, 42) !important;
 }
 
-.bg-info {
-  background-color: aqua !important;
+.btn-primary:hover {
+  background-color: rgb(130, 173, 42) !important;
+  border-color: rgb(109, 147, 34) !important;
 }
 
-.bg-white {
-  background-color: aquamarine !important;
-}
 .bg-dark .bg-light {
   background-color: #80828d !important;
 }
@@ -16,3 +15,11 @@
 .bg-light {
   background-color: #80828d !important;
 }
+
+.banner {
+  background-image: url(images/banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
