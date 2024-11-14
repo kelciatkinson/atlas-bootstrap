@@ -1,4 +1,4 @@
-.btn-primary {
+.btn.btn-primary {
   background-color: yellowgreen !important;
   border-color: rgb(130, 173, 42) !important;
 }
@@ -17,9 +17,28 @@
 }
 
 .banner {
-  background-image: url(images/banner.webp);
+  background-image: url(images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  width: 100%;
 }
 
+h1 {
+  font-family: "Caprasimo", serif !important;
+  font-weight: 400;
+}
+
+.form-select {
+  background-color: yellowgreen !important;
+  border-color: rgb(130, 173, 42) !important;
+  color: white !important;
+}
+
+#membership {
+  height: 400px;
+}
+
+#form {
+  height: 500px;
+}
