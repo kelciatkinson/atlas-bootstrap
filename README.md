@@ -42,4 +42,4 @@ Purpose: Contains footer content like copyright and social media links.
 
 ### Host to GitHub Pages
 You can view the live site hosted on GitHub Pages:
-[Pickleball Club Web Project](https://www.githubpages.com/)
+[Pickleball Club Web Project](https://kelciatkinson.github.io/atlas-bootstrap/)
