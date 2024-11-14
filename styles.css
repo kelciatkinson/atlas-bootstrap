@@ -1,0 +1,18 @@
+.btn-primary {
+  background-color: yellowgreen !important;
+}
+
+.bg-info {
+  background-color: aqua !important;
+}
+
+.bg-white {
+  background-color: aquamarine !important;
+}
+.bg-dark .bg-light {
+  background-color: #80828d !important;
+}
+
+.bg-light {
+  background-color: #80828d !important;
+}

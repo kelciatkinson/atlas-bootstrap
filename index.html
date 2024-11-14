@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Kelci Atkinson">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tulsa Pickleball Club</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="text-white">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info text-white">
+      <a class="navbar-brand text-white fs-1" href="#">Tulsa Pickleball Cub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  id="navbarNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <!-- Banner Section -->
+  <section class="bg-dark banner text-center text-white align-items-center d-flex ">
+    <div class="container p-5">
+      <h1 class="fs-1 p-5">Welcome to the Tulsa Pickleball Club</h1>
+      <p class="p-3">Join us for fun, fitness, and community on the courts!</p>
+      <a href="#membership" class="btn btn-primary btn-lg mt-3">Become a Member</a>
+    </div>
+  </section>
+
+  <!-- Single Item Carousel -->
+  <section id="testimonials" class="bg-dark carousel-section p-5">
+    <div class="container-fluid p-0">
+      <h2 class="mb-4 text-center">What Our Members Say</h2>
+      <div id="carousel" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="bg-light card">
+              <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center p-5">
+                <img src="images/profile1.jpeg" class="card-img-top card-img-md-left mb-md-0" style="width: 150px; height: 150px; object-fit: cover;">
+                <div class="card-body text-center text-md-left">
+                  <h5 class="card-title">John Doe</h5>
+                  <p class="card-text">"The Tulsa Pickleball Club has become my favorite way to stay active and meet amazing people!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-light card">
+              <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center p-5">
+                <img src="images/profile2.png" class="card-img-top card-img-md-left mb-md-0" style="width: 150px; height: 150px; object-fit: cover;">
+                <div class="card-body text-center text-md-left">
+                  <h5 class="card-title">John Smith</h5>
+                  <p class="card-text">"Great facilities, friendly community, and the best place for pickleball enthusiasts!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="membership" class="bg-dark p-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Explore Membership Options</h2>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+          Choose Membership Level
+        </button>
+        <div class="dropdown-menu text-dark">
+          <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#free" aria-expanded="false" aria-controls="freeInfo">Free Membership</a>
+          <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#basic" aria-expanded="false" aria-controls="basicInfo">Basic Membership</a>
+          <a class="dropdown-item" href="#" data-toggle="collapse" data-target="#premium" aria-expanded="false" aria-controls="premiumInfo">Premium Membership</a>
+        </div>
+        <div id="free" class="collapse membership-info mt-4 text-white">
+          <p>Free Membership: Access to all games and discounts on events.</p>
+        </div>
+        <div id="basic" class="collapse membership-info mt-4 text-white">
+          <p>Basic Membership: Access to all games, discounts on events, and exclusive workshops.</p>
+        </div>
+        <div id="premium" class="collapse membership-info mt-4 text-white">
+          <p>Premium Membership: Full access, free events, priority booking, and private coaching sessions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi Item Carousel -->
+  <section id="features" class="bg-dark p-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Club Features</h2>
+      <div id="multiItemCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner text-white">
+
+          <!-- First set of items -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel1.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Matches</h5>
+                    <p class="card-text">Join our weekly matches and improve your skills with other members.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 d-none d-md-block">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel2.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Tournaments</h5>
+                    <p class="card-text">Participate in tournaments and compete with the best in Tulsa.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel3.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Workshops</h5>
+                    <p class="card-text">Learn new techniques from experienced coaches at our workshops.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel4.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Social Events</h5>
+                    <p class="card-text">Make friends and connect with fellow pickleball enthusiasts.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second set of cards -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel1.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Matches</h5>
+                    <p class="card-text">Join our weekly matches and improve your skills with other members.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 d-none d-md-block">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel2.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Tournaments</h5>
+                    <p class="card-text">Participate in tournaments and compete with the best in Tulsa.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel3.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Workshops</h5>
+                    <p class="card-text">Learn new techniques from experienced coaches at our workshops.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="bg-light card mb-3">
+                  <img src="images/carousel4.png" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Social Events</h5>
+                    <p class="card-text">Make friends and connect with fellow pickleball enthusiasts.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#multiItemCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#multiItemCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aside Section -->
+  <section id="tips" class="bg-info tips-section p-5">
+    <div class="container">
+      <div class="row">
+        <aside class="col-lg-4 col-md-5 mb-md-0 mb-5">
+          <h3 class="mb-4 fs-4">Quick Tips for Beginners</h3>
+          <ul class="list-unstyled">
+            <li>• Stay light on your feet for quick movements.</li>
+            <li>• Practice dinking to improve control.</li>
+            <li>• Communicate with your partner on doubles.</li>
+            <li>• Focus on keeping your paddle up and ready.</li>
+          </ul>
+        </aside>
+        <div class="col-md-7 col-lg-8">
+          <h2>Upcoming Tournament: Tulsa Open</h2>
+          <p>The Tulsa Pickleball Club is excited to host the annual Tulsa Open this summer! All members are invited to join or spectate as players compete in doubles and singles matches.</p>
+          <p>Join us for an event packed with action, camaraderie, and fun. Don’t miss the beginner workshops and intermediate coaching sessions during the tournament weekend!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Free Section (Form) -->
+  <section class="bg-dark p-5">
+    <div class="container text-center">
+      <h2 class="mb-5">Sign Up for the Next Match!</h2>
+      <form action="#">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 mb-3">
+            <div class="form-group">
+              <label for="name" class="sr-only">Name</label>
+              <input type="text" class="form-control"placeholder="Name" required>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="form-group">
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" class="form-control"placeholder="Email" required>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-3">
+            <div class="form-group">
+              <label for="phone" class="sr-only">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Phone Number" required>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </div>
+          </div>
+      </form>
+    </div>
+  </section>
+  </main>
+  <footer class="bg-info text-white text-center py-4">
+    <div class="container">
+      <p class="mb-0">© 2024 Tulsa Pickleball Club. An Atlas School Front-End Project.</p>
+      <div>
+        <a href="www.github.com/kelciatkinson" class="text-white mx-2" target="_blank">
+          GitHub
+        </a>
+        <a href="www.linkedin.com/kelciatkinson" class="text-white mx-2" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
